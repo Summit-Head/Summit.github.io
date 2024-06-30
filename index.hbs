@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html class="cursor" lang="en">
+<head>
+    <title>Audio modulaton</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="controls">
+          <p>Value: <span id="hertzvalue">0</span></p>
+        <input type="range"  id="hertz" min="1" max="100" step="0.5" value="0" orient="vertical" />
+          <p>Value: <span id="ampvalue">0</span></p>
+        <input type="range"  id="amp" min="0" max="1" step="0.001" value="0"orient="vertical" />
+        </div>
+        <canvas id="chart" height="600" width="1440"></canvas> 
+    </body>
+</html>
